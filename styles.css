@@ -1,0 +1,68 @@
+#background-image {
+  background-image: url('assets/images/background-pattern-desktop.svg');
+  width: 100%;
+  height: 30vh;
+}
+
+#container {
+  background-color: hsl(275, 100%, 97%);
+  height: 100vh;
+  width: 100%;
+}
+
+#FAQ {
+  font-family: 'Work Sans', sans-serif;
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 15px;
+  text-align: left;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#header img {
+  margin-right: 10px;
+}
+
+#header h1 {
+  margin-right: 10px;
+}
+
+#header {
+  display: flex;
+}
+
+#first-quest, #Second-quest, #Third-quest,#Fourth-quest {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+#first-quest > div, #Second-quest > div, #Third-quest > div,#Fourth-quest > div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#first-quest p, #Second-quest p, #Third-quest p,#Fourth-quest p {
+  margin-right: 10px;
+  flex: 1;
+}
+
+#first-quest img, #Second-quest img, #Third-quest img,#Fourth-quest img {
+  cursor: pointer;
+}
+
+#hidden-quest, #hidden-quest2, #hidden-quest3,#hidden-quest4 {
+  display: none;
+  margin-top: 10px;
+}
+
+#hidden-quest p, #hidden-quest2 p, #hidden-quest3 p,#hidden-quest4 p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: hsl(240, 10%, 50%);
+}
